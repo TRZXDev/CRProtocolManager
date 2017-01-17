@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CRProtocolManager"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "Just Testing."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "CRProtocolManager", "CRProtocolManager/CRProtocolManager/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
