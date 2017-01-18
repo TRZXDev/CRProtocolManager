@@ -13,7 +13,7 @@
 		7140F6AA1E2CCF30000C94F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7140F6A81E2CCF30000C94F9 /* Main.storyboard */; };
 		7140F6AC1E2CCF30000C94F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7140F6AB1E2CCF30000C94F9 /* Assets.xcassets */; };
 		7140F6AF1E2CCF30000C94F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7140F6AD1E2CCF30000C94F9 /* LaunchScreen.storyboard */; };
-		714B2C9F1E2E424F00AB24DF /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B2C9E1E2E424F00AB24DF /* CRProtocolManager.m */; };
+		71CCE3AC1E2F118F00C644AA /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CCE3AB1E2F118F00C644AA /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		7140F6AB1E2CCF30000C94F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7140F6AE1E2CCF30000C94F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7140F6B01E2CCF30000C94F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		714B2C9D1E2E424F00AB24DF /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
-		714B2C9E1E2E424F00AB24DF /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
+		71CCE3AA1E2F118F00C644AA /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		71CCE3AB1E2F118F00C644AA /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		7140F69E1E2CCF30000C94F9 /* CRProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				714B2C9C1E2E424F00AB24DF /* CRProtocolManager */,
+				71CCE3A81E2F118F00C644AA /* TRZX */,
 				7140F6A21E2CCF30000C94F9 /* AppDelegate.h */,
 				7140F6A31E2CCF30000C94F9 /* AppDelegate.m */,
 				7140F6A51E2CCF30000C94F9 /* ViewController.h */,
@@ -83,11 +83,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		714B2C9C1E2E424F00AB24DF /* CRProtocolManager */ = {
+		71CCE3A81E2F118F00C644AA /* TRZX */ = {
 			isa = PBXGroup;
 			children = (
-				714B2C9D1E2E424F00AB24DF /* CRProtocolManager.h */,
-				714B2C9E1E2E424F00AB24DF /* CRProtocolManager.m */,
+				71CCE3A91E2F118F00C644AA /* CRProtocolManager */,
+			);
+			path = TRZX;
+			sourceTree = "<group>";
+		};
+		71CCE3A91E2F118F00C644AA /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				71CCE3AA1E2F118F00C644AA /* CRProtocolManager.h */,
+				71CCE3AB1E2F118F00C644AA /* CRProtocolManager.m */,
 			);
 			path = CRProtocolManager;
 			sourceTree = "<group>";
@@ -164,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				714B2C9F1E2E424F00AB24DF /* CRProtocolManager.m in Sources */,
+				71CCE3AC1E2F118F00C644AA /* CRProtocolManager.m in Sources */,
 				7140F6A71E2CCF30000C94F9 /* ViewController.m in Sources */,
 				7140F6A41E2CCF30000C94F9 /* AppDelegate.m in Sources */,
 				7140F6A11E2CCF30000C94F9 /* main.m in Sources */,
